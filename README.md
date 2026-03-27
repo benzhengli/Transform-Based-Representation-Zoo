@@ -119,4 +119,4 @@ We provide scripts and adapted datasets to reproduce the empirical evaluations d
 ### Usage
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/benzhengli/Trans-TNN-Toolbox.git](https://github.com/benzhengli/Trans-TNN-Toolbox.git)
+   git clone [https://github.com/benzhengli/Transform-Based-Representation-Zoo/tree/main](https://github.com/benzhengli/Transform-Based-Representation-Zoo/tree/main)
