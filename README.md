@@ -6,8 +6,26 @@ Tensor Representations in Light of Transforms: An Overview and Perspectives
 
 This repository contains the adapted datasets and MATLAB code for the review paper: **"Transform-Based Tensor Representations in Light of Transforms: An Overview and Perspectives"**[cite: 2]. 
 
+## 📝 Citation
+
+If you find this repository or our review paper useful in your research, please consider citing our work:
+
+```bibtex
+@article{li2026tensor,
+  title   = {Tensor Representations in Light of Transforms: An Overview and Perspectives},
+  author  = {Li, Ben-Zheng and Wang, Chuan and Zheng, Yu-Bang and Liu, Sheng and Luo, Yisi and Jiang, Tai-Xiang and Zhao, Xi-Le},
+  journal = {CSIAM Transactions on Applied Mathematics},
+  volume  = {x},
+  number  = {x},
+  pages   = {1--30},
+  year    = {20xx},
+  publisher={Global-Science Press}
+}
+```
+
 ## ✨ Abstract
 Transform-based tensor representations have become a powerful framework for modeling high-dimensional data with intrinsic multi-mode structures. In particular, the transform-based tensor singular value decomposition (t-SVD) and its variants have demonstrated remarkable effectiveness in various recovery tasks, such as multispectral image reconstruction, traffic data imputation, and spatial transcriptomics analysis. By incorporating diverse transforms into the t-SVD framework, these methods significantly enhance modeling flexibility and representation capability. Despite rapid progress over the past decade, a systematic and comprehensive overview of transform-based tensor representations is still lacking. To address this gap, this article provides a unified review of recent advances. We first revisit the fundamental algebraic framework of transform-based t-SVD, highlighting key theoretical milestones such as the best rank-$k$ approximation and exact recovery guarantees for tensor recovery. We structure the subsequent review from two fundamental perspectives: transform design and low-rank characterization. Regarding transform design, we cover the progression from traditional linear transforms to nonlinear, group-tube, functional, and spatially irregular ones. As for low-rank characterization, we delve into the evolution of model architectures and learning paradigms, ranging from shallow factorizations to deep tensor representations. Finally, representative methods are empirically evaluated to provide a comparative outlook, followed by a discussion on open challenges and future research directions. 
+
 
 ## 📖 Transform Design
 
