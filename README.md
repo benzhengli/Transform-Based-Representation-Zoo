@@ -57,6 +57,33 @@ Transform-based tensor representations have become a powerful framework for mode
 
 * H. Zhang, T.-Z. Huang, X.-L. Zhao, S. Zhang, J.-Y. Xie, T.-X. Jiang, and M. K. Ng. Learnable transform-assisted tensor decomposition for spatio-irregular multidimensional data recovery. ACM Trans. Knowl. Discov. Data, 2024.
 
+## 📖 Transformed Low-Rank Characterization
+
+* P. Zhou, C. Lu, Z. Lin, and C. Zhang. Tensor factorization for low-rank tensor completion. IEEE Transactions on Image Processing, 2018.
+  
+* F. Wu, Y. Li, C. Li, and Y. Wu. A fast tensor completion method based on tensor qr decomposition and tensor nuclear norm minimization. IEEE Transactions on Computational Imaging, 2021.
+  
+* Y. Zheng and A.-B. Xu. Tensor completion via tensor qr decomposition and l2,1-norm minimization. Signal Processing, 2021.
+  
+* J.-Y. Li, J.-Y. Xie, Y.-S. Luo, X.-L. Zhao, and J.-L. Wang. H2tf for hyperspectral image denoising: Where hierarchical nonlinear transform meets hierarchical matrix factorization. IEEE Geoscience and Remote Sensing Letters, 2023.
+* 
+* T.-W. Zhou, X.-L. Zhao, J.-L. Wang, Y.-S. Luo, M. Wang, and X.-X. Bai. Dtr: A unified deep tensor representation framework for multimedia data recovery. IEEE Transactions on Multimedia, 2025. 
+
+
+## Multi-Directional and Higher-Order Extensions
+
+* Y.-B. Zheng, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, T.-Y. Ji, and T.-H. Ma. Tensor n-tubal rank and its convex relaxation for low-rank tensor recovery. Information Sciences, 2020.
+
+* A. Wang, Q. Zhao, Z. Jin, C. Li, and G. Zhou. Robust tensor decomposition via orientation invariant tubal nuclear norms. Science China Technological Sciences, 2022.
+
+* L. Feng, C. Zhu, Z. Long, J. Liu, and Y. Liu. Multiplex transformed tensor decomposition for multidimensional image recovery. IEEE Transactions on Image Processing, 2023.
+
+* H. Wang, J. Peng, W. Qin, J. Wang, and D. Meng. Guaranteed tensor recovery fused low-rankness and smoothness. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023.
+
+* J.-L. Wang, T.-Z. Huang, X.-L. Zhao, Y.-S. Luo, and T.-X. Jiang. Conot: Coupled nonlinear transform-based low-rank tensor representation for multidimensional image completion. IEEE Transactions on Neural Networks and Learning Systems, 2024.
+
+* Z.-W. Shi, Y.-B. Zheng, Y. Zhang, and H.-C. Li. Multidimensional nonlinear transform-based tensor representation for high-dimensional image reconstruction. Pattern Recognition, 2025.
+
 
 ## 🚀 Applications & Datasets
 
