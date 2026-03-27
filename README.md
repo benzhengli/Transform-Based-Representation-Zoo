@@ -66,7 +66,7 @@ Transform-based tensor representations have become a powerful framework for mode
 * Y. Zheng and A.-B. Xu. Tensor completion via tensor qr decomposition and l2,1-norm minimization. Signal Processing, 2021.
   
 * J.-Y. Li, J.-Y. Xie, Y.-S. Luo, X.-L. Zhao, and J.-L. Wang. H2tf for hyperspectral image denoising: Where hierarchical nonlinear transform meets hierarchical matrix factorization. IEEE Geoscience and Remote Sensing Letters, 2023.
-* 
+
 * T.-W. Zhou, X.-L. Zhao, J.-L. Wang, Y.-S. Luo, M. Wang, and X.-X. Bai. Dtr: A unified deep tensor representation framework for multimedia data recovery. IEEE Transactions on Multimedia, 2025. 
 
 
@@ -87,11 +87,11 @@ Transform-based tensor representations have become a powerful framework for mode
 
 ## 🚀 Applications & Datasets
 
-[cite_start]We provide scripts and adapted datasets [cite: 24] to reproduce the empirical evaluations discussed in the paper across three representative data recovery tasks:
+We provide scripts and adapted datasets to reproduce the empirical evaluations discussed in the paper across three representative data recovery tasks:
 
-1.  [cite_start]**Multispectral Image Completion**: Recovering partially observed MSI tensors[cite: 437, 438].
-2.  [cite_start]**Slice-Missing Traffic Data Imputation**: Imputing consecutive missing frontal slices in spatiotemporal traffic scenarios[cite: 442, 443].
-3.  [cite_start]**Spatially Irregular Spatial Transcriptomics Data Imputation**: Recovering gene expression levels on tissue spots distributed over irregular biological domains[cite: 565, 567].
+1.  **Multispectral Image Completion**: Recovering partially observed MSI tensors.
+2.  **Slice-Missing Traffic Data Imputation**: Imputing consecutive missing frontal slices in spatiotemporal traffic scenarios.
+3.  **Spatially Irregular Spatial Transcriptomics Data Imputation**: Recovering gene expression levels on tissue spots distributed over irregular biological domains.
 
 ## ⚙️ Getting Started
 
