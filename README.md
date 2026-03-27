@@ -36,14 +36,27 @@ Transform-based tensor representations have become a powerful framework for mode
 
 * Y.-S. Luo, X.-L. Zhao, T.-X. Jiang, Y. Chang, M. K. Ng, and C. Li. Self-supervised nonlinear transform-based tensor nuclear norm for multi-dimensional image recovery. IEEE Transactions on Image Processing, 2022.
 
-* Z. Tu, K. Yang, J. Lu, and Q. Jiang. Tensor recovery using the tensor nuclear norm based on nonconvex and nonlinear transformations. Signal Processing, 2024.Y. Mei, 
+* Z. Tu, K. Yang, J. Lu, and Q. Jiang. Tensor recovery using the tensor nuclear norm based on nonconvex and nonlinear transformations. Signal Processing, 2024. 
 
-* X. Su, H. Lin, and H. Ge. Nonconvex nonlinear transformation of low-rank approximation for tensor completion. Applied Sciences, 2024.
+* Y. Mei, X. Su, H. Lin, and H. Ge. Nonconvex nonlinear transformation of low-rank approximation for tensor completion. Applied Sciences, 2024.
 
 ### Group-Tube Transform-Based Tensor Representation
 
-* [cite_start]**Functional Transforms**: Replaces discrete atom vectors with matrix-valued functions for continuous-domain modeling, highly adaptable to irregular sampling[cite: 235, 338, 342].
-* [cite_start]**Spatially Irregular Transforms**: Maps non-rectangular spatial coordinates (e.g., tissue shapes) onto a latent spatio-regular tensor domain to effectively capture multi-way dependencies[cite: 237, 366, 368].
+* B.-Z. Li, X.-L. Zhao, X. Zhang, T.-Y. Ji, X. Chen, and M. K. Ng. A learnable group-tube transform induced tensor nuclear norm and its application for tensor completion. SIAM Journal on Imaging Sciences, 2023.
+
+* G.-W. Yang, L. Yang, T.-X. Jiang, G. Liu, and M. K. Ng. Delta: Deep low-rank tensor representation for multi-dimensional data recovery. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
+
+* B.-Z. Li, X.-L. Zhao, H. Zhang, and D. Chu. Importance-aware nonlocal tensor nuclear norm for high-dimensional image recovery. Inverse Problems, 2026.
+
+
+### Functional Transforme-Based Tensor Representation
+
+* C. Wang, X.-L. Zhao, Y.-B. Zheng, B.-Z. Li, and M. K. Ng. Functional tensor singular value decomposition. SIAM Journal on Scientific Computing, 2025.
+
+### Spatially Irregular Transform-Based Tensor Representation
+
+* H. Zhang, T.-Z. Huang, X.-L. Zhao, S. Zhang, J.-Y. Xie, T.-X. Jiang, and M. K. Ng. Learnable transform-assisted tensor decomposition for spatio-irregular multidimensional data recovery. ACM Trans. Knowl. Discov. Data, 2024.
+
 
 ## 🚀 Applications & Datasets
 
