@@ -1,4 +1,4 @@
-# Transform-Based-Representation-Zoo
+# Transform-Based-Representation-Tensor-Zoo
 Tensor Representations in Light of Transforms: An Overview and Perspectives
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-Supported-blue.svg)]()
