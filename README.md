@@ -176,10 +176,43 @@ We provide scripts and adapted datasets to reproduce the empirical evaluations d
 
 ## ⚙️ Getting Started
 
-### Prerequisites
-* [cite_start]MATLAB (R2020a or later recommended) [cite: 24]
-
 ### Usage
 1. Clone the repository:
    ```bash
    git clone [https://github.com/benzhengli/Transform-Based-Representation-Zoo/tree/main](https://github.com/benzhengli/Transform-Based-Representation-Zoo/tree/main)
+
+2. Add to Path:
+   Open MATLAB and add the repository and its subfolders to your MATLAB path:
+   ```matlab
+   addpath(genpath('Transform-Based-Tensor-Representation-Zoo'));
+   savepath;
+
+3. Quick Start. We provide two demo scripts to help you get started quickly with the representative tasks discussed in the paper:
+
+* **Multispectral Image Recovery**:
+  Navigate to `./Applications/MSI_Completion/` and run `demo_msi.m`.
+
+* **Spatial Transcriptomics Imputation**:
+  Navigate to `./Applications/Spatial_Irregular/` and run `demo_spatial.m`.
+
+## 📂 Repository Structure
+
+```text
+├── Applications/           # Scripts for specific recovery tasks
+│   ├── MSI_Completion/     # Multispectral image recovery experiments
+│   ├── Traffic_Imputation/ # Traffic data slice-missing recovery
+│   └── Spatial_Irregular/  # Spatially irregular data recovery
+├── Datasets/               # Adapted and pre-processed datasets
+├── Methods/                # Implementation of core TNN-based models
+│   ├── Linear/             # TNN, DCTTNN, UTNN, DTNN
+│   ├── Nonlinear/          # NTTNN, S2NTNN
+│   ├── GroupTube/          # GTNN, NTNN
+│   └── Functional/         # FunTNN
+└── Utils/                  # Shared helper functions (PSNR, SSIM calculation, etc.)
+```
+
+## 📧 Contact
+
+If you have any questions, please feel free to open an issue or contact:
+
+* Ben-Zheng Li (李本正): mathlibz@ccnu.edu.cn
