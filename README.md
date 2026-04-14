@@ -48,6 +48,7 @@ Transform-based tensor representations have become a powerful framework for mode
 * T.-X. Jiang, X.-L. Zhao, H. Zhang, and M. K. Ng. Dictionary learning with low-rank coding coefficients for tensor completion. IEEE Transactions on Neural Networks and Learning Systems, 2023.
 
 
+
 ### Nonlinear Transform-Based Tensor Representation
 
 * B.-Z. Li, X.-L. Zhao, T.-Y. Ji, X.-J. Zhang, and T.-Z. Huang. Nonlinear transform induced tensor nuclear norm for tensor completion. Journal of Scientific Computing, 2022.
@@ -69,6 +70,10 @@ Transform-based tensor representations have become a powerful framework for mode
 
 ### Functional Transforme-Based Tensor Representation
 
+* A. Wang, Y. Qiu, M. Bai, Z. Jin, G. Zhou, and Q. Zhao. Generalized tensor decomposition for understanding multi-output regression under combinatorial shifts. Advances in Neural Information Processing Systems, 2024.
+
+* A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou, and Q. Zhao. Towards a geometric understanding of tensor learning via the t-product. Advances in Neural Information Processing Systems, 2025.
+
 * C. Wang, X.-L. Zhao, Y.-B. Zheng, B.-Z. Li, and M. K. Ng. Functional tensor singular value decomposition. SIAM Journal on Scientific Computing, 2025.
 
 ### Spatially Irregular Transform-Based Tensor Representation
@@ -88,10 +93,14 @@ Transform-based tensor representations have become a powerful framework for mode
 * T.-W. Zhou, X.-L. Zhao, J.-L. Wang, Y.-S. Luo, M. Wang, and X.-X. Bai. Dtr: A unified deep tensor representation framework for multimedia data recovery. IEEE Transactions on Multimedia, 2025. 
 
 
-## Multi-Directional and Higher-Order Extensions
+### Multi-Directional Extensions
+
+* D. Wei, A. Wang, X. Feng, B. Wang, and B. Wang. Tensor completion based on triple tubal nuclear norm. Algorithms, 2018.
 
 * Y.-B. Zheng, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, T.-Y. Ji, and T.-H. Ma. Tensor n-tubal rank and its convex relaxation for low-rank tensor recovery. Information Sciences, 2020.
 
+* J.-L. Wang, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, and M. K. Ng. Multi-dimensional visual data completion via low-rank tensor representation under coupled transform. IEEE Transactions on Image Processing, 2021.
+  
 * A. Wang, Q. Zhao, Z. Jin, C. Li, and G. Zhou. Robust tensor decomposition via orientation invariant tubal nuclear norms. Science China Technological Sciences, 2022.
 
 * L. Feng, C. Zhu, Z. Long, J. Liu, and Y. Liu. Multiplex transformed tensor decomposition for multidimensional image recovery. IEEE Transactions on Image Processing, 2023.
@@ -100,16 +109,70 @@ Transform-based tensor representations have become a powerful framework for mode
 
 * J.-L. Wang, T.-Z. Huang, X.-L. Zhao, Y.-S. Luo, and T.-X. Jiang. Conot: Coupled nonlinear transform-based low-rank tensor representation for multidimensional image completion. IEEE Transactions on Neural Networks and Learning Systems, 2024.
 
+* D. Qiu, T. Li, and X. Zhang. Hyperspectral image denoising via transformed tensor nuclear norm and nonconvex regularization in spatial-spectral gradient domains. IEEE Transactions on Geoscience and Remote Sensing, 2025.
+  
 * Z.-W. Shi, Y.-B. Zheng, Y. Zhang, and H.-C. Li. Multidimensional nonlinear transform-based tensor representation for high-dimensional image reconstruction. Pattern Recognition, 2025.
 
+### Higher-Order Extensions
+
+* C. D. Martin, R. Shaffer, and B. Larue. An order-p tensor factorization with applications in imaging. SIAM Journal on Scientific Computing, 2013. 
+
+* Y.-B. Zheng, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, T.-Y. Ji, and T.-H. Ma. Tensor n-tubal rank and its convex relaxation for low-rank tensor recovery. Information Sciences, 2020.
+
+* W. Qin, H. Wang, F. Zhang, J. Wang, X. Luo, and T. Huang. Low-rank high-order tensor completion with applications in visual data. IEEE Transactions on Image Processing, 2022. 
+
+* Y. Wang and Y. Yang. Hot-svd: Higher order t-singular value decomposition for tensors based on tensor-tensor product. Computational and Applied Mathematics, 2022. 
+
+* S. Liu, X.-L. Zhao, J. Leng, B.-Z. Li, J.-H. Yang, and X. Chen. Revisiting high-order tensor singular value decomposition from basic element perspective. IEEE Transactions on Signal Processing, 2024. 
+
+* W. Qin, H. Wang, F. Zhang, W. Ma, J. Wang, and T. Huang. Nonconvex robust high-order tensor completion using randomized low-rank approximation. IEEE Transactions on Image Processing, 2024.
+
+### Extensions to Diversified Machine Learning Tasks
+
+* S. Roy and G. Michailidis. Regularized high dimension low tubal-rank tensor regression. Electronic Journal of Statistics, 2022.
+
+* A. Wang, Y. Qiu, Z. Jin, G. Zhou, and Q. Zhao. Low-rank tensor transitions (lort) for transferable tensor regression. Proceedings of the 42nd International Conference on Machine Learning, 2025.
+
+* J. Wu, Z. Lin, and H. Zha. Essential tensor learning for multi-view spectral clustering. IEEE Transactions on Image Processing, 2019.
+
+* L. Zhang and Z. Peng. Infrared small target detection based on partial sum of the tensor nuclear norm. Remote Sensing, 2019.
+
+* B.-Y. Jing, T. Li, Z. Lyu, and D. Xia. Community detection on mixture multilayer networks via regularized tensor decomposition. The Annals of Statistics, 2021.
+
+* K. Yan et al. Tppred-atmv: therapeutic peptide prediction by adaptive multi-view tensor learning model. Bioinformatics, 2022.
+
+* T. T. Mai, E. Y. Lam, and C. Lee. Attention-guided low-rank tensor completion. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024.
+
+* J. Zheng, A. Tang, Q. Mao, Z. Lin, and Y. Cao. Refta: Breaking the weight reconstruction bottleneck in tensorized parameter-efficient fine-tuning. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.
 
 ## 🚀 Applications & Datasets
 
-We provide scripts and adapted datasets to reproduce the empirical evaluations discussed in the paper across three representative data recovery tasks:
+We provide scripts and adapted datasets to reproduce the empirical evaluations discussed in the paper across three representative data recovery tasks.
 
 1.  **Multispectral Image Completion**: Recovering partially observed MSI tensors.
+
+* Dataset: CAVE Dataset.
+
+* Description: Comprises 32 multispectral images (MSIs) captured in controlled indoor environments. Each MSI features a spatial resolution of 512×512 pixels across 31 spectral bands, spanning a wavelength range from 400 nm to 700 nm with a spectral interval of 10 nm. All data are rescaled to the interval [0,1] and resize to 256×256×31 for evaluation.
+
+* Original Link: https://cave.cs.columbia.edu/repository/Multispectral
+
 2.  **Slice-Missing Traffic Data Imputation**: Imputing consecutive missing frontal slices in spatiotemporal traffic scenarios.
+
+* Dataset: Guangzhou Urban Traffic Speed Dataset.
+
+* Description: Organized as a tensor of size 214×61×144, corresponding to 214 road segments, 61 days (Aug. 1 - Sep. 30, 2016), and 144 time intervals per day with 10-minute resolution.
+
+* Original Link: https://doi.org/10.5281/zenodo.1205229
+
+   
 3.  **Spatially Irregular Spatial Transcriptomics Data Imputation**: Recovering gene expression levels on tissue spots distributed over irregular biological domains.
+
+* Dataset: Human Heart Tissue Spatial Transcriptomics Dataset.
+
+* Description: Organized as a spatio-irregular tensor of size 22×16×250, where 22 and 16 denote the height and width of the smallest rectangle enclosing the tissue domain, and 250 is the number of frontal slices (genes). The tensor contains 210 valid mode-3 fibers in total corresponding to the irregular tissue spots.
+
+* Link: Available within our provided repository code.
 
 ## ⚙️ Getting Started
 
