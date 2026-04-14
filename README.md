@@ -76,6 +76,14 @@ Transform-based tensor representations have become a powerful framework for mode
 
 * C. Wang, X.-L. Zhao, Y.-B. Zheng, B.-Z. Li, and M. K. Ng. Functional tensor singular value decomposition. SIAM Journal on Scientific Computing, 2025.
 
+* J. Wang and X.-L. Zhao, Functional transform-based low-rank tensor factorization for multi-dimensional data recovery, in Computer Vision – ECCV, 2024.
+
+* T. Yang, W. Wu, and T. Huang, Hincot: Hierarchical nonlinear continuous transform-based tensor representation for multi-dimensional data recovery, in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, 2026, pp. 27621–27629.
+
+* Y. Zeng, X.-L. Zhao, W.-H. Wu, T.-Y. Ji, and C. Wang, Gaussian splatting-based low-rank tensor representation for multi-dimensional image recovery, CVPR,2026.
+
+* R. Su, X.-L. Zhao, S. Liu, W.-H. Wu, Y. Luo, and M. K. Ng, Neural operator-grounded continuous tensor function representation and its applications, arXiv preprint arXiv:2603.01812, 2026.
+
 ### Spatially Irregular Transform-Based Tensor Representation
 
 * H. Zhang, T.-Z. Huang, X.-L. Zhao, S. Zhang, J.-Y. Xie, T.-X. Jiang, and M. K. Ng. Learnable transform-assisted tensor decomposition for spatio-irregular multidimensional data recovery. ACM Trans. Knowl. Discov. Data, 2024.
