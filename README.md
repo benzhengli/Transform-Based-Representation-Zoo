@@ -31,33 +31,44 @@ Transform-based tensor representations have become a powerful framework for mode
 
 ### Linear Transform-Based Tensor Representation
 
-* M. E. Kilmer and C. D. Martin. Factorization strategies for third-order tensors. Linear Algebra and its Applications, 2011. [[PDF]]([https://doi.org/10.1016/j.laa.2010.10.011](https://www.sciencedirect.com/science/article/pii/S0024379510004830))
+* M. E. Kilmer and C. D. Martin. Factorization strategies for third-order tensors. Linear Algebra and its Applications, 2011. [[PDF]](https://www.sciencedirect.com/science/article/pii/S0024379510004830)
 
 * E. Kernfeld, M. E. Kilmer, and S. Aeron. Tensor-tensor products with invertible linear transforms. Linear Algebra and its Applications, 2015.
-
+  [[PDF]](https://www.sciencedirect.com/science/article/pii/S0024379515004358)
+  
 * C. Lu, X. Peng, and Y. Wei. Low-rank tensor completion with a new tensor nuclear norm induced by invertible linear transforms. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+  [[PDF]](https://ieeexplore.ieee.org/document/8953215)
 
 * C. Lu, J. Feng, Y. Chen, W. Liu, Z. Lin, and S. Yan. Tensor robust principal component analysis with a new tensor nuclear norm. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
+  [[PDF]](https://ieeexplore.ieee.org/document/8606166)[[Code]](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA)
 
 * T.-X. Jiang, M. K. Ng, X.-L. Zhao, and T.-Z. Huang. Framelet representation of tensor nuclear norm for third-order tensor completion. IEEE Transactions on Image Processing, 2020.
+  [[PDF]](https://ieeexplore.ieee.org/document/9115254)[[Code]](https://github.com/TaiXiangJiang/Framelet-TNN)
 
 * G.-J. Song, M. K. Ng, and X.-J. Zhang. Robust tensor completion using transformed tensor singular value decomposition. Numerical Linear Algebra with Applications, 2020.
+  [[PDF]](https://onlinelibrary.wiley.com/doi/abs/10.1002/nla.2299)[[Code]](https://github.com/xjzhang008/Transformed-Tensor-SVD)
 
 * M. E. Kilmer, L. Horesh, H. Avron, and E. Newman. Tensor-tensor algebra for optimal representation and compression of multiway data. Proceedings of the National Academy of Sciences, 2021.
+  [[PDF]](https://pubmed.ncbi.nlm.nih.gov/34234014/)
 
 * T.-X. Jiang, X.-L. Zhao, H. Zhang, and M. K. Ng. Dictionary learning with low-rank coding coefficients for tensor completion. IEEE Transactions on Neural Networks and Learning Systems, 2023.
+  [[PDF]](https://ieeexplore.ieee.org/document/9525838)
 
 
 
 ### Nonlinear Transform-Based Tensor Representation
 
 * B.-Z. Li, X.-L. Zhao, T.-Y. Ji, X.-J. Zhang, and T.-Z. Huang. Nonlinear transform induced tensor nuclear norm for tensor completion. Journal of Scientific Computing, 2022.
+  [[PDF]](https://link.springer.com/article/10.1007/s10915-022-01937-1)[[Code]](https://github.com/benzhengli/NTTNN-code/tree/main)
 
 * Y.-S. Luo, X.-L. Zhao, T.-X. Jiang, Y. Chang, M. K. Ng, and C. Li. Self-supervised nonlinear transform-based tensor nuclear norm for multi-dimensional image recovery. IEEE Transactions on Image Processing, 2022.
+  [[PDF]](https://ieeexplore.ieee.org/document/9780890)[[Code]](https://github.com/YisiLuo/S2NTNN)
 
-* Z. Tu, K. Yang, J. Lu, and Q. Jiang. Tensor recovery using the tensor nuclear norm based on nonconvex and nonlinear transformations. Signal Processing, 2024. 
+* Z. Tu, K. Yang, J. Lu, and Q. Jiang. Tensor recovery using the tensor nuclear norm based on nonconvex and nonlinear transformations. Signal Processing, 2024.
+  [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0165168424000197)
 
 * Y. Mei, X. Su, H. Lin, and H. Ge. Nonconvex nonlinear transformation of low-rank approximation for tensor completion. Applied Sciences, 2024.
+  [[PDF]](https://www.mdpi.com/2076-3417/14/24/11895)
 
 ### Group-Tube Transform-Based Tensor Representation
 
