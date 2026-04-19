@@ -208,8 +208,17 @@ Transform-based tensor representations have become a powerful framework for mode
 * L. Zhang and Z. Peng. Infrared small target detection based on partial sum of the tensor nuclear norm. Remote Sensing, 2019.
   [[Website]](https://www.mdpi.com/2072-4292/11/4/382)
 
-* Ke Yan1, H. Lv, Y. Guo, Y. Chen, H. Wu, B. Liu, TPpred-ATMV: therapeutic peptide prediction by adaptive multi-view tensor learning model. Bioinformatics, 2022.
+* Ke Yan, H. Lv, Y. Guo, Y. Chen, H. Wu, B. Liu, TPpred-ATMV: therapeutic peptide prediction by adaptive multi-view tensor learning model. Bioinformatics, 2022.
   [[Website]](https://academic.oup.com/bioinformatics/article/38/10/2712/6564690?login=false) [[Code]](https://github.com/cokeyk/TPpred-ATMV)
+
+* H. Chen, X. Wang, X. Xiu, W. Liu, Data-Adaptive Transformed Bilateral Tensor Low-Rank Representation for Clustering, arXiv:2510.20077v1, 2025.
+  [[Website]](https://arxiv.org/abs/2510.20077v1) [[Code]](https://github.com/xianchaoxiu/TBTLRR)
+
+* M. Ding, J.-H. Yang, X.-L. Zhao, J. Zhang, M. K. Ng, Nonconvex low-rank tensor representation for multi-view subspace clustering with insufficient observed samples, IEEE Transactions on Knowledge and Data Engineering, 37 (2025), p. 3583–3597.
+  [[Website]]https://ieeexplore.ieee.org/document/10938849)
+
+* L. Wang, Y. Yuan, X. Luo, Advanced High-Order Graph Convolutional Networks with Assorted Time-Frequency Transforms, IEEE/CAA Journal of Automatica Sinica, vol. 13, no. 2, pp. 394-408, 2026.
+  [[Website]](https://ieeexplore.ieee.org/document/11429643)
 
 * T. T. Mai, E. Y. Lam, and C. Lee. Attention-guided low-rank tensor completion. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024.
   [[Website]](https://ieeexplore.ieee.org/document/10601492) [[Code]](https://github.com/mtntruong/AGTC)
