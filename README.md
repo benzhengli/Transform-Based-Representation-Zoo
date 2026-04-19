@@ -31,138 +31,191 @@ Transform-based tensor representations have become a powerful framework for mode
 
 ### Linear Transform-Based Tensor Representation
 
-* M. E. Kilmer and C. D. Martin. Factorization strategies for third-order tensors. Linear Algebra and its Applications, 2011. [[PDF]](https://www.sciencedirect.com/science/article/pii/S0024379510004830)
+* M. E. Kilmer and C. D. Martin. Factorization strategies for third-order tensors. Linear Algebra and its Applications, 2011. [[Website]](https://www.sciencedirect.com/science/article/pii/S0024379510004830)
 
 * E. Kernfeld, M. E. Kilmer, and S. Aeron. Tensor-tensor products with invertible linear transforms. Linear Algebra and its Applications, 2015.
-  [[PDF]](https://www.sciencedirect.com/science/article/pii/S0024379515004358)
+  [[Website]](https://www.sciencedirect.com/science/article/pii/S0024379515004358)
   
 * C. Lu, X. Peng, and Y. Wei. Low-rank tensor completion with a new tensor nuclear norm induced by invertible linear transforms. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
-  [[PDF]](https://ieeexplore.ieee.org/document/8953215)
+  [[Website]](https://ieeexplore.ieee.org/document/8953215)
 
 * C. Lu, J. Feng, Y. Chen, W. Liu, Z. Lin, and S. Yan. Tensor robust principal component analysis with a new tensor nuclear norm. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020.
-  [[PDF]](https://ieeexplore.ieee.org/document/8606166)[[Code]](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA)
+  [[Website]](https://ieeexplore.ieee.org/document/8606166) [[Code]](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA)
 
 * T.-X. Jiang, M. K. Ng, X.-L. Zhao, and T.-Z. Huang. Framelet representation of tensor nuclear norm for third-order tensor completion. IEEE Transactions on Image Processing, 2020.
-  [[PDF]](https://ieeexplore.ieee.org/document/9115254)[[Code]](https://github.com/TaiXiangJiang/Framelet-TNN)
+  [[Website]](https://ieeexplore.ieee.org/document/9115254) [[Code]](https://github.com/TaiXiangJiang/Framelet-TNN)
 
 * G.-J. Song, M. K. Ng, and X.-J. Zhang. Robust tensor completion using transformed tensor singular value decomposition. Numerical Linear Algebra with Applications, 2020.
-  [[PDF]](https://onlinelibrary.wiley.com/doi/abs/10.1002/nla.2299)[[Code]](https://github.com/xjzhang008/Transformed-Tensor-SVD)
+  [[Website]](https://onlinelibrary.wiley.com/doi/abs/10.1002/nla.2299) [[Code]](https://github.com/xjzhang008/Transformed-Tensor-SVD)
+  
+* X. Zhang and M. K. Ng. Low Rank Tensor Completion with Poisson Observations, IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(8):4239-4251, 2022.
+  [[Website]](https://ieeexplore.ieee.org/document/9354598) [[Code]](https://xj-zhang.github.io/math/publications.html)
 
 * M. E. Kilmer, L. Horesh, H. Avron, and E. Newman. Tensor-tensor algebra for optimal representation and compression of multiway data. Proceedings of the National Academy of Sciences, 2021.
-  [[PDF]](https://pubmed.ncbi.nlm.nih.gov/34234014/)
+  [[Website]](https://pubmed.ncbi.nlm.nih.gov/34234014/)
 
 * T.-X. Jiang, X.-L. Zhao, H. Zhang, and M. K. Ng. Dictionary learning with low-rank coding coefficients for tensor completion. IEEE Transactions on Neural Networks and Learning Systems, 2023.
-  [[PDF]](https://ieeexplore.ieee.org/document/9525838)
+  [[Website]](https://ieeexplore.ieee.org/document/9525838) [[Code]](https://taixiangjiang.github.io/)
 
 
 
 ### Nonlinear Transform-Based Tensor Representation
 
 * B.-Z. Li, X.-L. Zhao, T.-Y. Ji, X.-J. Zhang, and T.-Z. Huang. Nonlinear transform induced tensor nuclear norm for tensor completion. Journal of Scientific Computing, 2022.
-  [[PDF]](https://link.springer.com/article/10.1007/s10915-022-01937-1)[[Code]](https://github.com/benzhengli/NTTNN-code/tree/main)
+  [[Website]](https://link.springer.com/article/10.1007/s10915-022-01937-1) [[Code]](https://github.com/benzhengli/NTTNN-code/tree/main)
 
 * Y.-S. Luo, X.-L. Zhao, T.-X. Jiang, Y. Chang, M. K. Ng, and C. Li. Self-supervised nonlinear transform-based tensor nuclear norm for multi-dimensional image recovery. IEEE Transactions on Image Processing, 2022.
-  [[PDF]](https://ieeexplore.ieee.org/document/9780890)[[Code]](https://github.com/YisiLuo/S2NTNN)
+  [[Website]](https://ieeexplore.ieee.org/document/9780890) [[Code]](https://github.com/YisiLuo/S2NTNN)
 
 * Z. Tu, K. Yang, J. Lu, and Q. Jiang. Tensor recovery using the tensor nuclear norm based on nonconvex and nonlinear transformations. Signal Processing, 2024.
-  [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0165168424000197)
+  [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S0165168424000197)
+
+* L. Luo, Z. Tu, J. Lu, C. Wang, C. Xu, A nonlinear high-order transformations-based method for high-order tensor completion, Signal Processing, 225 (2024), p. 109514.
+   [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S0165168424001336)
 
 * Y. Mei, X. Su, H. Lin, and H. Ge. Nonconvex nonlinear transformation of low-rank approximation for tensor completion. Applied Sciences, 2024.
-  [[PDF]](https://www.mdpi.com/2076-3417/14/24/11895)
+  [[Website]](https://www.mdpi.com/2076-3417/14/24/11895)
+
+* Y. Zhang, Z. Tu, J. Lu, C. Xu, L. Shen, Fusion of low-rankness and smoothness under learnable nonlinear transformation for tensor completion, Knowledge-Based Systems, 296 (2024), p. 111917.
+   [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S095070512400551)
+
+* Y. Lu, M. Yousaf, X. Meng, E. Chen, MNT-TNN: spatiotemporal traffic data imputation via compact multimode nonlinear transform-based tensor nuclear norm, Transportation Research Part C: Emerging Technologies, 180 (2025), p. 105348.
+  [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S0968090X25003523) [[Code]](https://github.com/Luoauoa/MNT-TNN)
+
+* Z.-W. Shi, Y.-B. Zheng, Y. Zhang, H.-C. Li, Multidimensional nonlinear transform-based tensor representation for high-dimensional image reconstruction, Pattern Recognition, 168 (2025), p. 111734.
+ [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S0031320325003942)
+
+* L. Yang, Y. Hu, T.-X. Jiang, Y. Wei, G. Liu, M. K. Ng, Nonlinear transformed low-rank quaternion tensor total variation for multidimensional color image completion, IEEE Transactions on Image Processing, 35 (2026), pp. 2470–2483
+  [[Website]](https://ieeexplore.ieee.org/document/11421614)
+
+
 
 ### Group-Tube Transform-Based Tensor Representation
 
 * B.-Z. Li, X.-L. Zhao, X. Zhang, T.-Y. Ji, X. Chen, and M. K. Ng. A learnable group-tube transform induced tensor nuclear norm and its application for tensor completion. SIAM Journal on Imaging Sciences, 2023.
+   [[Website]](https://epubs.siam.org/doi/10.1137/22M1531907)
 
 * G.-W. Yang, L. Yang, T.-X. Jiang, G. Liu, and M. K. Ng. Delta: Deep low-rank tensor representation for multi-dimensional data recovery. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025.
+  [[Website]](https://ieeexplore.ieee.org/document/11231348)
 
 * B.-Z. Li, X.-L. Zhao, H. Zhang, and D. Chu. Importance-aware nonlocal tensor nuclear norm for high-dimensional image recovery. Inverse Problems, 2026.
-
+[[Website]](https://iopscience.iop.org/article/10.1088/1361-6420/ae2ef7)
 
 ### Functional Transforme-Based Tensor Representation
 
 * A. Wang, Y. Qiu, M. Bai, Z. Jin, G. Zhou, and Q. Zhao. Generalized tensor decomposition for understanding multi-output regression under combinatorial shifts. Advances in Neural Information Processing Systems, 2024.
+[[Website]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/54ece32fe923c26b3de15d0da182e008-Abstract-Conference.html)
+[[Code]](https://github.com/pingzaiwang/FtSVD4MORCDS)
 
 * A. Wang, Y. Qiu, H. Huang, Z. Jin, G. Zhou, and Q. Zhao. Towards a geometric understanding of tensor learning via the t-product. Advances in Neural Information Processing Systems, 2025.
+ [[Website]](https://neurips.cc/virtual/2025/loc/san-diego/poster/120278) [[Code]](https://github.com/pingzaiwang/BTR4tGeometry)
 
 * C. Wang, X.-L. Zhao, Y.-B. Zheng, B.-Z. Li, and M. K. Ng. Functional tensor singular value decomposition. SIAM Journal on Scientific Computing, 2025.
+  [[Website]](https://epubs.siam.org/doi/10.1137/24M1644687) 
 
 * J. Wang and X.-L. Zhao, Functional transform-based low-rank tensor factorization for multi-dimensional data recovery, in Computer Vision – ECCV, 2024.
+  [[Website]](https://link.springer.com/chapter/10.1007/978-3-031-72751-1_3)
 
 * T. Yang, W. Wu, and T. Huang, Hincot: Hierarchical nonlinear continuous transform-based tensor representation for multi-dimensional data recovery, in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, 2026, pp. 27621–27629.
+  [[Website]](https://ojs.aaai.org/index.php/AAAI/article/view/39982) [[Poster]](https://underline.io/lecture/140013-hincot-hierarchical-nonlinear-continuous-transform-based-tensor-representation-for-multi-dimensional-data-recovery) 
 
 * Y. Zeng, X.-L. Zhao, W.-H. Wu, T.-Y. Ji, and C. Wang, Gaussian splatting-based low-rank tensor representation for multi-dimensional image recovery, CVPR,2026.
+  [[Website]](https://cvpr.thecvf.com/virtual/2026/poster/38121)
 
 * R. Su, X.-L. Zhao, S. Liu, W.-H. Wu, Y. Luo, and M. K. Ng, Neural operator-grounded continuous tensor function representation and its applications, arXiv preprint arXiv:2603.01812, 2026.
+  [[Website]](https://arxiv.org/html/2603.01812v1)  
+  
 
 ### Spatially Irregular Transform-Based Tensor Representation
 
-* H. Zhang, T.-Z. Huang, X.-L. Zhao, S. Zhang, J.-Y. Xie, T.-X. Jiang, and M. K. Ng. Learnable transform-assisted tensor decomposition for spatio-irregular multidimensional data recovery. ACM Trans. Knowl. Discov. Data, 2024.
+* H. Zhang, T.-Z. Huang, X.-L. Zhao, S. Zhang, J.-Y. Xie, T.-X. Jiang, and M. K. Ng. Learnable transform-assisted tensor decomposition for spatio-irregular multidimensional data recovery. ACM Transactions on Knowledge Discovery from Data, 2024.
+  [[Website]](https://dl.acm.org/doi/10.1145/3701235) [[Code]](https://github.com/haozhangSWJTU/Irregular-Tensor-Toolbox)
+
 
 ## 📖 Transformed Low-Rank Characterization
 
 * P. Zhou, C. Lu, Z. Lin, and C. Zhang. Tensor factorization for low-rank tensor completion. IEEE Transactions on Image Processing, 2018.
+  [[Website]](https://ieeexplore.ieee.org/document/8066348) [[Code]](https://panzhous.github.io/publication/)
   
-* F. Wu, Y. Li, C. Li, and Y. Wu. A fast tensor completion method based on tensor qr decomposition and tensor nuclear norm minimization. IEEE Transactions on Computational Imaging, 2021.
+* F. Wu, Y. Li, C. Li, and Y. Wu. A fast tensor completion method based on tensor QR decomposition and tensor nuclear norm minimization. IEEE Transactions on Computational Imaging, 2021.
+   [[Website]](https://ieeexplore.ieee.org/abstract/document/9627784) 
   
-* Y. Zheng and A.-B. Xu. Tensor completion via tensor qr decomposition and l2,1-norm minimization. Signal Processing, 2021.
+* Y. Zheng and A.-B. Xu. Tensor completion via tensor QR decomposition and l2,1-norm minimization. Signal Processing, 2021.
+  [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S0165168421002772)
   
-* J.-Y. Li, J.-Y. Xie, Y.-S. Luo, X.-L. Zhao, and J.-L. Wang. H2tf for hyperspectral image denoising: Where hierarchical nonlinear transform meets hierarchical matrix factorization. IEEE Geoscience and Remote Sensing Letters, 2023.
+* J.-Y. Li, J.-Y. Xie, Y.-S. Luo, X.-L. Zhao, and J.-L. Wang. H2TF for hyperspectral image denoising: Where hierarchical nonlinear transform meets hierarchical matrix factorization. IEEE Geoscience and Remote Sensing Letters, 2023.
+  [[Website]](https://ieeexplore.ieee.org/abstract/document/10181304)
 
-* T.-W. Zhou, X.-L. Zhao, J.-L. Wang, Y.-S. Luo, M. Wang, and X.-X. Bai. Dtr: A unified deep tensor representation framework for multimedia data recovery. IEEE Transactions on Multimedia, 2025. 
+* T.-W. Zhou, X.-L. Zhao, J.-L. Wang, Y.-S. Luo, M. Wang, and X.-X. Bai. DTR: A unified deep tensor representation framework for multimedia data recovery. IEEE Transactions on Multimedia, 2025.
+   [[Website]](https://ieeexplore.ieee.org/document/11045408)
 
 
 ### Multi-Directional Extensions
 
 * D. Wei, A. Wang, X. Feng, B. Wang, and B. Wang. Tensor completion based on triple tubal nuclear norm. Algorithms, 2018.
+  [[Website]](https://www.mdpi.com/1999-4893/11/7/94)
 
 * Y.-B. Zheng, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, T.-Y. Ji, and T.-H. Ma. Tensor n-tubal rank and its convex relaxation for low-rank tensor recovery. Information Sciences, 2020.
+  [[Website]](https://www.sciencedirect.com/science/article/pii/S0020025520303923) [[Code]](https://yubangzheng.github.io/)
 
 * J.-L. Wang, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, and M. K. Ng. Multi-dimensional visual data completion via low-rank tensor representation under coupled transform. IEEE Transactions on Image Processing, 2021.
+  [[Website]](https://ieeexplore.ieee.org/document/9372832) [[Poster]](https://tensorworkshop.github.io/NeurIPS2021/accepted_papers/poster_4_compresse.pdf)
   
 * A. Wang, Q. Zhao, Z. Jin, C. Li, and G. Zhou. Robust tensor decomposition via orientation invariant tubal nuclear norms. Science China Technological Sciences, 2022.
+  [[Website]](https://link.springer.com/article/10.1007/s11431-021-1976-2)
 
 * L. Feng, C. Zhu, Z. Long, J. Liu, and Y. Liu. Multiplex transformed tensor decomposition for multidimensional image recovery. IEEE Transactions on Image Processing, 2023.
+    [[Website]](https://ieeexplore.ieee.org/document/10153488/) [[Code]](https://github.com/yipengliu/mttd)
 
 * H. Wang, J. Peng, W. Qin, J. Wang, and D. Meng. Guaranteed tensor recovery fused low-rankness and smoothness. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023.
+  [[Website]](https://ieeexplore.ieee.org/document/10078018) [[Code]](https://github.com/wanghailin97/Guaranteed-Tensor-Recovery-Fused-Low-rankness-and-Smoothness)
 
-* J.-L. Wang, T.-Z. Huang, X.-L. Zhao, Y.-S. Luo, and T.-X. Jiang. Conot: Coupled nonlinear transform-based low-rank tensor representation for multidimensional image completion. IEEE Transactions on Neural Networks and Learning Systems, 2024.
+* J.-L. Wang, T.-Z. Huang, X.-L. Zhao, Y.-S. Luo, and T.-X. Jiang. CONOT: Coupled nonlinear transform-based low-rank tensor representation for multidimensional image completion. IEEE Transactions on Neural Networks and Learning Systems, 2024.
+  [[Website]](https://ieeexplore.ieee.org/document/9946011)
 
 * D. Qiu, T. Li, and X. Zhang. Hyperspectral image denoising via transformed tensor nuclear norm and nonconvex regularization in spatial-spectral gradient domains. IEEE Transactions on Geoscience and Remote Sensing, 2025.
+  [[Website]](https://ieeexplore.ieee.org/document/11262236) 
   
-* Z.-W. Shi, Y.-B. Zheng, Y. Zhang, and H.-C. Li. Multidimensional nonlinear transform-based tensor representation for high-dimensional image reconstruction. Pattern Recognition, 2025.
 
 ### Higher-Order Extensions
 
-* C. D. Martin, R. Shaffer, and B. Larue. An order-p tensor factorization with applications in imaging. SIAM Journal on Scientific Computing, 2013. 
+* C. D. Martin, R. Shaffer, and B. Larue. An order-p tensor factorization with applications in imaging. SIAM Journal on Scientific Computing, 2013.
+  [[Website]](https://epubs.siam.org/doi/10.1137/110841229)
 
-* Y.-B. Zheng, T.-Z. Huang, X.-L. Zhao, T.-X. Jiang, T.-Y. Ji, and T.-H. Ma. Tensor n-tubal rank and its convex relaxation for low-rank tensor recovery. Information Sciences, 2020.
+* W. Qin, H. Wang, F. Zhang, J. Wang, X. Luo, and T. Huang. Low-rank high-order tensor completion with applications in visual data. IEEE Transactions on Image Processing, 2022.
+  [[Website]](https://ieeexplore.ieee.org/document/9730793) [[Code]](https://github.com/Qinwenjinswu/TIP-Code)
 
-* W. Qin, H. Wang, F. Zhang, J. Wang, X. Luo, and T. Huang. Low-rank high-order tensor completion with applications in visual data. IEEE Transactions on Image Processing, 2022. 
+* Y. Wang and Y. Yang. HOT-SVD: Higher order t-singular value decomposition for tensors based on tensor-tensor product. Computational and Applied Mathematics, 2022. 
+  [[Website]](https://link.springer.com/article/10.1007/s40314-022-02107-7)
 
-* Y. Wang and Y. Yang. Hot-svd: Higher order t-singular value decomposition for tensors based on tensor-tensor product. Computational and Applied Mathematics, 2022. 
-
-* S. Liu, X.-L. Zhao, J. Leng, B.-Z. Li, J.-H. Yang, and X. Chen. Revisiting high-order tensor singular value decomposition from basic element perspective. IEEE Transactions on Signal Processing, 2024. 
+* S. Liu, X.-L. Zhao, J. Leng, B.-Z. Li, J.-H. Yang, and X. Chen. Revisiting high-order tensor singular value decomposition from basic element perspective. IEEE Transactions on Signal Processing, 2024.
+  [[Website]](https://ieeexplore.ieee.org/document/10665981) [[Code]](https://github.com/liu-sheng/code_METNN)
 
 * W. Qin, H. Wang, F. Zhang, W. Ma, J. Wang, and T. Huang. Nonconvex robust high-order tensor completion using randomized low-rank approximation. IEEE Transactions on Image Processing, 2024.
+  [[Website]](https://ieeexplore.ieee.org/document/10496551)
 
 ### Extensions to Diversified Machine Learning Tasks
 
 * S. Roy and G. Michailidis. Regularized high dimension low tubal-rank tensor regression. Electronic Journal of Statistics, 2022.
+  [[Website]](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-16/issue-1/Regularized-high-dimension-low-tubal-rank-tensor-regression/10.1214/22-EJS2004.pdf#:~:text=In%20this%20work%2C%20we%20leverage%20the%20recently%20developed,tubal%20rank%20tensor%20and%20a%20structured%20sparse%20one.)
 
-* A. Wang, Y. Qiu, Z. Jin, G. Zhou, and Q. Zhao. Low-rank tensor transitions (lort) for transferable tensor regression. Proceedings of the 42nd International Conference on Machine Learning, 2025.
+* A. Wang, Y. Qiu, Z. Jin, G. Zhou, and Q. Zhao. Low-rank tensor transitions (LoRT) for transferable tensor regression. Proceedings of the 42nd International Conference on Machine Learning, 2025.
+  [[Website]](https://openreview.net/forum?id=huu5JErrT1) [[Code]](https://github.com/pingzaiwang/LoRT)
 
 * J. Wu, Z. Lin, and H. Zha. Essential tensor learning for multi-view spectral clustering. IEEE Transactions on Image Processing, 2019.
+  [[Website]](https://ieeexplore.ieee.org/document/8736495) [[Code]](https://github.com/sikid/Code-for-ETLMSC)
 
 * L. Zhang and Z. Peng. Infrared small target detection based on partial sum of the tensor nuclear norm. Remote Sensing, 2019.
+  [[Website]](https://www.mdpi.com/2072-4292/11/4/382)
 
-* B.-Y. Jing, T. Li, Z. Lyu, and D. Xia. Community detection on mixture multilayer networks via regularized tensor decomposition. The Annals of Statistics, 2021.
-
-* K. Yan et al. Tppred-atmv: therapeutic peptide prediction by adaptive multi-view tensor learning model. Bioinformatics, 2022.
+* Ke Yan1, H. Lv, Y. Guo, Y. Chen, H. Wu, B. Liu, TPpred-ATMV: therapeutic peptide prediction by adaptive multi-view tensor learning model. Bioinformatics, 2022.
+  [[Website]](https://academic.oup.com/bioinformatics/article/38/10/2712/6564690?login=false) [[Code]](https://github.com/cokeyk/TPpred-ATMV)
 
 * T. T. Mai, E. Y. Lam, and C. Lee. Attention-guided low-rank tensor completion. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024.
+  [[Website]](https://ieeexplore.ieee.org/document/10601492) [[Code]](https://github.com/mtntruong/AGTC)
 
-* J. Zheng, A. Tang, Q. Mao, Z. Lin, and Y. Cao. Refta: Breaking the weight reconstruction bottleneck in tensorized parameter-efficient fine-tuning. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.
+* J. Zheng, A. Tang, Q. Mao, Z. Lin, and Y. Cao. ReFTA: Breaking the weight reconstruction bottleneck in tensorized parameter-efficient fine-tuning. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.
+  [[Website]](https://cvpr.thecvf.com/virtual/2026/poster/38595) 
 
 ## 🚀 Applications & Datasets
 
