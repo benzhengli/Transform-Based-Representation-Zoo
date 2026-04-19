@@ -294,6 +294,6 @@ We provide scripts and adapted datasets to reproduce the empirical evaluations d
 
 ## 📧 Contact
 
-If you have any questions, please feel free to open an issue or contact:
+If you have any questions or suggestions, please feel free to open an issue or contact:
 
 * Ben-Zheng Li (李本正): mathlibz@ccnu.edu.cn
