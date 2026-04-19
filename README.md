@@ -31,8 +31,7 @@ Transform-based tensor representations have become a powerful framework for mode
 
 ### Linear Transform-Based Tensor Representation
 
-* M. E. Kilmer and C. D. Martin. Factorization strategies for third-order tensors. Linear Algebra and its Applications, 2011.
-  [[PDF]]([https://doi.org/10.1016/j.laa.2010.10.011](https://www.sciencedirect.com/science/article/pii/S0024379510004830))
+* M. E. Kilmer and C. D. Martin. Factorization strategies for third-order tensors. Linear Algebra and its Applications, 2011. [[PDF]](https://doi.org/10.1016/j.laa.2010.10.011)
 
 * E. Kernfeld, M. E. Kilmer, and S. Aeron. Tensor-tensor products with invertible linear transforms. Linear Algebra and its Applications, 2015.
 
