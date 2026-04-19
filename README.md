@@ -215,7 +215,7 @@ Transform-based tensor representations have become a powerful framework for mode
   [[Website]](https://arxiv.org/abs/2510.20077v1) [[Code]](https://github.com/xianchaoxiu/TBTLRR)
 
 * M. Ding, J.-H. Yang, X.-L. Zhao, J. Zhang, M. K. Ng, Nonconvex low-rank tensor representation for multi-view subspace clustering with insufficient observed samples, IEEE Transactions on Knowledge and Data Engineering, 37 (2025), p. 3583–3597.
-  [[Website]]https://ieeexplore.ieee.org/document/10938849)
+  [[Website]](https://ieeexplore.ieee.org/document/10938849)
 
 * L. Wang, Y. Yuan, X. Luo, Advanced High-Order Graph Convolutional Networks with Assorted Time-Frequency Transforms, IEEE/CAA Journal of Automatica Sinica, vol. 13, no. 2, pp. 394-408, 2026.
   [[Website]](https://ieeexplore.ieee.org/document/11429643)
