@@ -76,7 +76,7 @@ Transform-based tensor representations have become a powerful framework for mode
 * Y. Mei, X. Su, H. Lin, and H. Ge. Nonconvex nonlinear transformation of low-rank approximation for tensor completion. Applied Sciences, 2024.
   [[Website]](https://www.mdpi.com/2076-3417/14/24/11895)
 
-* Y. Zhang, Z. Tu, J. Lu, C. Xu, L. Shen, Fusion of low-rankness and smoothness under learnable nonlinear transformation for tensor completion, Knowledge-Based Systems, 296 (2024), p. 111917.
+* Y. Zhang, Z. Tu, J. Lu, C. Xu, L. Shen, Fusion of low-rankness and smoothness under learnable nonlinear transformation for tensor completion, Knowledge-Based Systems, 296 (2024), p. 111917.
    [[Website]](https://www.sciencedirect.com/science/article/abs/pii/S095070512400551)
 
 * Y. Lu, M. Yousaf, X. Meng, E. Chen, MNT-TNN: spatiotemporal traffic data imputation via compact multimode nonlinear transform-based tensor nuclear norm, Transportation Research Part C: Emerging Technologies, 180 (2025), p. 105348.
