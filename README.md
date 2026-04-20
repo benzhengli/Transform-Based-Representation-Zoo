@@ -247,13 +247,14 @@ We provide scripts and adapted datasets to reproduce the empirical evaluations d
 * Original Link: https://doi.org/10.5281/zenodo.1205229
 
    
-3.  **Spatially Irregular Spatial Transcriptomics Data Imputation**: Recovering gene expression levels on tissue spots distributed over irregular biological domains.
+3.  **Spatially Irregular Spatial Transcriptomics Data Imputation**:
+Recovering gene expression levels that suffer from severe missingness during acquisition, an essential step for subsequent biological analysis.
 
-* Dataset: Human Heart Tissue Spatial Transcriptomics Dataset.
+* Dataset: Human dorsolateral prefrontal cortex (DLPFC) spatial transcriptomics dataset.
 
-* Description: Organized as a spatio-irregular tensor of size 22×16×250, where 22 and 16 denote the height and width of the smallest rectangle enclosing the tissue domain, and 250 is the number of frontal slices (genes). The tensor contains 210 valid mode-3 fibers in total corresponding to the irregular tissue spots.
+* Description: Unlike standard tensor completion settings defined on rectangular grids, this data is collected over an irregular biological domain. It is organized as a spatio-irregular tensor of size 74 × 49 × 50. Here, 74 and 49 denote the height and width of the smallest rectangle enclosing the tissue domain, while 50 is the number of frontal slices. The tensor contains 2702 valid mode-3 fibers in total. For evaluation, the nonzero gene expression entries are treated as the reference set, from which 50%, 70%, and 90% entries are uniformly missing as observations.
 
-* Link: Available within our provided repository code.
+* Original Link: http://spatial.libd.org/spatialLIBD/
 
 ## ⚙️ Getting Started
 
