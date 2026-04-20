@@ -279,16 +279,14 @@ We provide scripts and adapted datasets to reproduce the empirical evaluations d
 ## 📂 Repository Structure
 
 ```text
-├── Applications/           # Scripts for specific recovery tasks
-│   ├── MSI_Completion/     # Multispectral image recovery experiments
-│   ├── Traffic_Imputation/ # Traffic data slice-missing recovery
-│   └── Spatial_Irregular/  # Spatially irregular data recovery
+├── Demo_MSI_Completion     # Multispectral image recovery experiments
+├── Demo_Spatial_Irregular  # Spatially irregular data recovery
 ├── Datasets/               # Adapted and pre-processed datasets
 ├── Methods/                # Implementation of core TNN-based models
 │   ├── Linear/             # TNN, DCTTNN, UTNN, DTNN
-│   ├── Nonlinear/          # NTTNN, S2NTNN
-│   ├── GroupTube/          # GTNN, NTNN
-│   └── Functional/         # FunTNN
+│   ├── Nonlinear/          # NTTNN
+│   ├── GroupTube/          # NTNN
+│   ├── Irregular/          # SIR-LRTC
 └── Utils/                  # Shared helper functions (PSNR, SSIM calculation, etc.)
 ```
 
