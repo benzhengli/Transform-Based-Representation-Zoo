@@ -252,7 +252,7 @@ Recovering gene expression levels that suffer from severe missingness during acq
 
 * Dataset: Human dorsolateral prefrontal cortex (DLPFC) spatial transcriptomics dataset.
 
-* Description: Unlike standard tensor completion settings defined on rectangular grids, this data is collected over an irregular biological domain. It is organized as a spatio-irregular tensor of size 74 × 49 × 50. Here, 74 and 49 denote the height and width of the smallest rectangle enclosing the tissue domain, while 50 is the number of frontal slices. The tensor contains 2702 valid mode-3 fibers in total. For evaluation, the nonzero gene expression entries are treated as the reference set, from which 50%, 70%, and 90% entries are uniformly missing as observations.
+* Description: Unlike standard tensor completion settings defined on rectangular grids, this data is collected over an irregular biological domain. The dataset inherently consists of 2702 valid tissue spots (mode-3 fibers), with the third dimension representing 50 distinct genes. For evaluation, the nonzero gene expression entries are treated as the reference set, from which 50%, 70%, and 90% entries are uniformly missing as observations.
 
 * Original Link: http://spatial.libd.org/spatialLIBD/
 
