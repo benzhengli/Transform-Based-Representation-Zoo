@@ -1,12 +1,16 @@
-# Transform-Based-Tensor-Representation-Zoo
-Tensor Representations in Light of Transforms: An Overview and Perspectives
+# Transform-Based Tensor Representation Zoo
+
+Companion repository for the review article:
+
+**Tensor Representations in Light of Transforms: An Overview and Perspectives**
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-Supported-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![Paper](https://img.shields.io/badge/Paper-Science%20China%20Technological%20Sciences-blue.svg)]()
 
-This repository contains the adapted datasets and MATLAB code for the review paper: **Transform-Based Tensor Representations in Light of Transforms: An Overview and Perspectives**. 
+This repository accompanies our review paper prepared for **Science China Technological Sciences**. It collects representative papers, code links, datasets, and MATLAB resources related to transform-based tensor representations, with a focus on transform-based t-SVD models and transformed low-rank characterization.
 
-## 📝 Citation
+## Citation
 
 If you find this repository or our review paper useful in your research, please consider citing our work:
 
@@ -14,20 +18,25 @@ If you find this repository or our review paper useful in your research, please 
 @article{li2026tensor,
   title   = {Tensor Representations in Light of Transforms: An Overview and Perspectives},
   author  = {Li, Ben-Zheng and Wang, Chuan and Zheng, Yu-Bang and Liu, Sheng and Luo, Yisi and Jiang, Tai-Xiang and Zhao, Xi-Le},
-  journal = {CSIAM Transactions on Applied Mathematics},
-  volume  = {x},
-  number  = {x},
-  pages   = {1--30},
-  year    = {20xx},
-  publisher={Global-Science Press}
+  journal = {Science China Technological Sciences},
+  year    = {2026},
+  note    = {Manuscript submitted}
 }
 ```
 
-## ✨ Abstract
-Transform-based tensor representations have become a powerful framework for modeling high-dimensional data with intrinsic multi-mode structures. Among these, the transform-based tensor singular value decomposition (t-SVD) and its variants have demonstrated remarkable effectiveness in various recovery tasks. By incorporating diverse transforms, the t-SVD framework significantly enhances modeling flexibility and representation capability. Despite rapid progress over the past decade, a systematic and comprehensive overview of this paradigm, specifically the t-SVD framework and its variants, remains absent. To bridge this gap, this article provides a unified and focused review of recent advances. We first revisit the fundamental algebraic framework of transform-based t-SVD, highlighting key theoretical milestones such as the best rank-$k$ approximation and exact recovery guarantees for tensor recovery. Then, we structure the subsequent review from two fundamental perspectives: transform design and low-rank characterization. Regarding transform design, we cover the progression from traditional linear transforms to nonlinear, group-tube, functional, and spatially irregular ones. As for low-rank characterization, we delve into the evolution of representation paradigms, ranging from matrix factorizations to deep tensor representations. Finally, several representative methods are empirically evaluated to provide a comparative outlook, followed by a discussion on open challenges and future research directions.
+## Abstract
 
+Transform-based tensor representations have become a powerful framework for modeling high-dimensional data with intrinsic multi-mode structures. Among these, the transform-based tensor singular value decomposition (t-SVD) and its variants have demonstrated remarkable effectiveness in various recovery tasks. By incorporating diverse transforms, the t-SVD framework significantly enhances modeling flexibility and representation capability. Despite rapid progress over the past decade, a systematic and comprehensive overview of this paradigm, specifically the t-SVD framework and its variants, remains absent. To bridge this gap, this article provides a unified and focused review of recent advances. We first revisit the fundamental algebraic framework of transform-based t-SVD, highlighting key theoretical milestones such as the best rank-$k$ approximation and exact recovery guarantees for tensor recovery. Then, we structure the subsequent review from two fundamental perspectives: transform design and transformed low-rank characterization. Regarding transform design, we cover the progression from traditional linear transforms to nonlinear, group-tube, functional, and spatially irregular ones. As for transformed low-rank characterization, we delve into the evolution of representation paradigms, ranging from matrix factorizations to deep tensor representations. Finally, several representative methods are empirically evaluated to provide a comparative outlook, followed by a discussion on open challenges and future research directions.
 
-## 📖 Transform Design
+## Repository Overview
+
+This repository is organized around two complementary views of transform-based tensor representation:
+
+- **Transform design**: from fixed linear transforms to nonlinear, group-tube, functional, and spatially irregular transforms.
+- **Transformed low-rank characterization**: from shallow matrix/tensor factorizations to multi-directional, higher-order, and learning-oriented extensions.
+- **Applications and datasets**: representative recovery tasks used in the review, including multispectral image completion, slice-missing traffic data imputation, and spatially irregular spatial transcriptomics data imputation.
+
+## Transform Design
 
 ### Linear Transform-Based Tensor Representation
 
@@ -101,7 +110,7 @@ Transform-based tensor representations have become a powerful framework for mode
 * B.-Z. Li, X.-L. Zhao, H. Zhang, and D. Chu. Importance-aware nonlocal tensor nuclear norm for high-dimensional image recovery. Inverse Problems, 2026.
 [[Website]](https://iopscience.iop.org/article/10.1088/1361-6420/ae2ef7)
 
-### Functional Transforme-Based Tensor Representation
+### Functional Transform-Based Tensor Representation
 
 * A. Wang, Y. Qiu, M. Bai, Z. Jin, G. Zhou, and Q. Zhao. Generalized tensor decomposition for understanding multi-output regression under combinatorial shifts. Advances in Neural Information Processing Systems, 2024.
 [[Website]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/54ece32fe923c26b3de15d0da182e008-Abstract-Conference.html)
@@ -132,7 +141,7 @@ Transform-based tensor representations have become a powerful framework for mode
   [[Website]](https://dl.acm.org/doi/10.1145/3701235) [[Code]](https://github.com/haozhangSWJTU/Irregular-Tensor-Toolbox)
 
 
-## 📖 Transformed Low-Rank Characterization
+## Transformed Low-Rank Characterization
 
 * P. Zhou, C. Lu, Z. Lin, and C. Zhang. Tensor factorization for low-rank tensor completion. IEEE Transactions on Image Processing, 2018.
   [[Website]](https://ieeexplore.ieee.org/document/8066348) [[Code]](https://panzhous.github.io/publication/)
@@ -226,15 +235,15 @@ Transform-based tensor representations have become a powerful framework for mode
 * J. Zheng, A. Tang, Q. Mao, Z. Lin, and Y. Cao. ReFTA: Breaking the weight reconstruction bottleneck in tensorized parameter-efficient fine-tuning. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.
   [[Website]](https://cvpr.thecvf.com/virtual/2026/poster/38595) 
 
-## 🚀 Applications & Datasets
+## Applications and Datasets
 
-We provide scripts and adapted datasets to reproduce the empirical evaluations discussed in the paper across three representative data recovery tasks.
+The review compares representative transform-based tensor methods on three data recovery tasks. The corresponding scripts and adapted datasets will be organized in this repository following the structure below.
 
 1.  **Multispectral Image Completion**: Recovering partially observed MSI tensors.
 
 * Dataset: CAVE Dataset.
 
-* Description: Comprises 32 multispectral images (MSIs) captured in controlled indoor environments. Each MSI features a spatial resolution of 512×512 pixels across 31 spectral bands, spanning a wavelength range from 400 nm to 700 nm with a spectral interval of 10 nm. All data are rescaled to the interval [0,1] and resize to 256×256×31 for evaluation.
+* Description: Comprises 32 multispectral images (MSIs) captured in controlled indoor environments. Each MSI features a spatial resolution of 512 x 512 pixels across 31 spectral bands, spanning a wavelength range from 400 nm to 700 nm with a spectral interval of 10 nm. All data are rescaled to the interval [0,1] and resized to 256 x 256 x 31 for evaluation.
 
 * Original Link: https://cave.cs.columbia.edu/repository/Multispectral
 
@@ -242,7 +251,7 @@ We provide scripts and adapted datasets to reproduce the empirical evaluations d
 
 * Dataset: Guangzhou Urban Traffic Speed Dataset.
 
-* Description: Organized as a tensor of size 214×61×144, corresponding to 214 road segments, 61 days (Aug. 1 - Sep. 30, 2016), and 144 time intervals per day with 10-minute resolution.
+* Description: Organized as a tensor of size 214 x 61 x 144, corresponding to 214 road segments, 61 days (Aug. 1 - Sep. 30, 2016), and 144 time intervals per day with 10-minute resolution.
 
 * Original Link: https://doi.org/10.5281/zenodo.1205229
 
@@ -256,43 +265,50 @@ Recovering gene expression levels that suffer from severe missingness during acq
 
 * Original Link: http://spatial.libd.org/spatialLIBD/
 
-## ⚙️ Getting Started
+## Getting Started
 
-### Usage
+### Clone the repository
+
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/benzhengli/Transform-Based-Representation-Zoo/tree/main](https://github.com/benzhengli/Transform-Based-Representation-Zoo/tree/main)
+   git clone https://github.com/benzhengli/Transform-Based-Representation-Zoo.git
+   cd Transform-Based-Representation-Zoo
+   ```
 
-2. Add to Path:
-   Open MATLAB and add the repository and its subfolders to your MATLAB path:
+2. Add the repository to the MATLAB path:
    ```matlab
-   addpath(genpath('Transform-Based-Tensor-Representation-Zoo'));
+   addpath(genpath('Transform-Based-Representation-Zoo'));
    savepath;
+   ```
 
-3. Quick Start. We provide two demo scripts to help you get started quickly with the representative tasks discussed in the paper:
+### Code release
 
-* **Multispectral Image Recovery**:
-  Navigate to `./Applications/MSI_Completion/` and run `demo_msi.m`.
+The public code and adapted datasets are being organized. The planned demo entries are:
 
-* **Spatial Transcriptomics Imputation**:
-  Navigate to `./Applications/Spatial_Irregular/` and run `demo_spatial.m`.
+- `Demo_MSI_Completion`: multispectral image completion.
+- `Demo_Traffic_Imputation`: slice-missing traffic data imputation.
+- `Demo_Spatial_Irregular`: spatially irregular spatial transcriptomics data imputation.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
-├── Demo_MSI_Completion     # Multispectral image recovery experiments
-├── Demo_Spatial_Irregular  # Spatially irregular data recovery
-├── Datasets/               # Adapted and pre-processed datasets
-├── Methods/                # Implementation of core TNN-based models
-│   ├── Linear/             # TNN, DCTTNN, UTNN, DTNN
-│   ├── Nonlinear/          # NTTNN
-│   ├── GroupTube/          # NTNN
-│   ├── Irregular/          # SIR-LRTC
-└── Utils/                  # Shared helper functions (PSNR, SSIM calculation, etc.)
+.
+|-- README.md
+|-- Demo_MSI_Completion/        # Multispectral image completion experiments
+|-- Demo_Traffic_Imputation/    # Slice-missing traffic data imputation experiments
+|-- Demo_Spatial_Irregular/     # Spatially irregular data imputation experiments
+|-- Datasets/                   # Adapted and pre-processed datasets
+|-- Methods/                    # Representative transform-based TNN methods
+|   |-- Linear/                 # TNN, DCTTNN, UTNN, DTNN
+|   |-- Nonlinear/              # NTTNN and related nonlinear models
+|   |-- GroupTube/              # Group-tube and nonlocal transform models
+|   |-- Functional/             # Functional transform-based models
+|   `-- Irregular/              # Spatially irregular tensor models
+`-- Utils/                      # Shared metrics and helper functions
 ```
 
-## 📧 Contact
+## Contact
 
 If you have any questions or suggestions, please feel free to open an issue or contact:
 
-* Ben-Zheng Li (李本正): mathlibz@ccnu.edu.cn
+* Ben-Zheng Li: mathlibz@ccnu.edu.cn
