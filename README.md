@@ -6,9 +6,9 @@ Companion repository for the review article:
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-Supported-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
-[![Paper](https://img.shields.io/badge/Paper-Science%20China%20Technological%20Sciences-blue.svg)]()
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20Transactions%20on%20Intelligent%20Transportation%20Systems-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)
 
-This repository accompanies our review paper prepared for **Science China Technological Sciences**. It collects representative papers, code links, datasets, and MATLAB resources related to transform-based tensor representations, with a focus on transform-based t-SVD models and transformed low-rank characterization.
+This repository accompanies our review paper prepared for **[IEEE Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)**. It collects representative papers, code links, datasets, and MATLAB resources related to transform-based tensor representations, with a focus on transform-based t-SVD models and transformed low-rank characterization.
 
 ## Citation
 
@@ -17,8 +17,8 @@ If you find this repository or our review paper useful in your research, please 
 ```bibtex
 @article{li2026tensor,
   title   = {Tensor Representations in Light of Transforms: An Overview and Perspectives},
-  author  = {Li, Ben-Zheng and Wang, Chuan and Zheng, Yu-Bang and Liu, Sheng and Luo, Yisi and Jiang, Tai-Xiang and Zhao, Xi-Le},
-  journal = {Science China Technological Sciences},
+  author  = {Li, Ben-Zheng and Wang, Chuan and Zheng, Yu-Bang and Liu, Sheng and Luo, Yisi and Jiang, Tai-Xiang and Zhao, Xi-Le and Ng, Michael K.},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
   year    = {2026},
   note    = {Manuscript submitted}
 }
