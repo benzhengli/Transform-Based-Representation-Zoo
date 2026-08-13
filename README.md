@@ -6,9 +6,9 @@ Companion repository for the review article:
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-Supported-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20Transactions%20on%20Intelligent%20Transportation%20Systems-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20TNNLS-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
 
-This repository accompanies our review paper prepared for **[IEEE Transactions on Intelligent Transportation Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979)**. It collects representative papers, code links, datasets, and MATLAB resources related to transform-based tensor representations, with a focus on transform-based t-SVD models and transformed low-rank characterization.
+This repository accompanies our review paper prepared for **[IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)**. It collects representative papers, code links, datasets, and MATLAB resources related to transform-based tensor representations, with a focus on transform-based t-SVD models and transformed low-rank characterization.
 
 ## Citation
 
@@ -18,7 +18,7 @@ If you find this repository or our review paper useful in your research, please 
 @article{li2026tensor,
   title   = {Tensor Representations in Light of Transforms: An Overview and Perspectives},
   author  = {Li, Ben-Zheng and Wang, Chuan and Zheng, Yu-Bang and Liu, Sheng and Luo, Yisi and Jiang, Tai-Xiang and Zhao, Xi-Le and Ng, Michael K.},
-  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  journal = {IEEE Transactions on Neural Networks and Learning Systems},
   year    = {2026},
   note    = {Manuscript submitted}
 }
